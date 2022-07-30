@@ -1,0 +1,22 @@
+/**
+ * @app scss for (Task Management)
+ * 
+ * project     - Task Management
+ * author      - {{}|any}
+ * created_by  - kawsar bin siraj
+ * created_at  - 28/07/2022 21:12:18
+ * modified_by - {{}|any}
+ */
+
+/* Layouts */
+#dashboard {
+    min-height: calc(100vh - 125px) !important;
+}
+
+.nav-links {
+    >a.active {
+        color: var(--bs-warning) !important;
+    }
+}
+
+/* Layouts -END */
