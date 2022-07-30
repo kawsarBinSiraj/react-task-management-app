@@ -5,7 +5,6 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
 import AuthLibrary from "../libraries/AuthLibrary";
 import { useDispatch } from 'react-redux'
-import { Navigate  } from 'react-router-dom'
 import _ from 'lodash';
 import Cookies from "cookies-js";
 
